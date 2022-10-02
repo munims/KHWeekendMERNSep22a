@@ -1,0 +1,4 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "fiveServer.port": 5500
+}
