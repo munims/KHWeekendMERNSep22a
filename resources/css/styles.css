@@ -266,25 +266,7 @@ img {
 }
 
 
-  /* Text Styles */
-  .x-large {
-    font-size: 3rem;
-  }
 
-  .large {
-    font-size: 2rem;
-  }
-
-  .lead {
-    font-size: 1rem;
-  }
-
-  /* Navbar 
-  .navbar {
-    display: block;
-    text-align: center;
-  }
-*/
   .navbar ul {
     text-align: center;
     justify-content: center;
@@ -301,7 +283,7 @@ img {
   /*landing page*/
   .landing {
     position: relative;
-    background: url('../img/showcase.jpg');
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
     height: 100vh;
 
   }
@@ -310,8 +292,22 @@ img {
     color: #fff;
     height: 100%;
     width: 80%;
+    margin: auto;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+
+  /* Profile related classes*/
+  .profile {
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    align-items: center;
+    grid-gap: 2rem;    
+    padding: 1rem;
+    line-height: 1.0;
+    margin-bottom: 1rem;
+
   }
