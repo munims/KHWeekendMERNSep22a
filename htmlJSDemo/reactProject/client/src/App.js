@@ -1,18 +1,23 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Header from "./components/layouts/Header";
+import Landing from "./components/layouts/Landing";
+import Footer from "./components/layouts/Footer";
 
-import Header  from "./components/core/Header";
-import  Landing  from "./components/core/Landing";
-import  Footer  from "./components/core/Footer";
+//import Header  from "./components/layouts/Header";
+//import  Landing  from "./components/layouts/Landing";
+//import  Footer  from "./components/layouts/Footer";
 
 function App() {
   return (
-  <div>
+    <>
     <Header></Header>
     <Landing></Landing>
     <Footer></Footer>
-  </div>
+    </>
   );
 }
 
 export default App;
+
+
